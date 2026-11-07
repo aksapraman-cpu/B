@@ -7,6 +7,18 @@ Aplikasi Gradio untuk mengubah teks menjadi narasi bahasa Indonesia dengan gaya 
 - **ElevenLabs — Voice ID:** gunakan API key dan Voice ID yang sudah ada di akun ElevenLabs; mode ini **tidak** menggunakan audio referensi untuk cloning.
 - Hasil MP3, serta WAV dalam mode lokal.
 
+## Jalankan versi HTML di HP (tanpa Python)
+
+Versi HTML ada di [index.html](./index.html). Ini adalah TTS yang memanfaatkan fitur suara dari browser/HP; **bukan voice clone dari audio contoh** dan tidak menghasilkan MP3. Untuk model suara yang mirip audio referensi, gunakan backend Python di bawah ini.
+
+Untuk mengakses sebagai website (sekali pengaturan):
+1. Buka **Settings → Pages** di repositori ini: https://github.com/aksapraman-cpu/B/settings/pages
+2. Pada **Build and deployment**, pilih **Deploy from a branch**.
+3. Pilih branch **main** dan folder **/(root)**, lalu klik **Save**.
+4. Setelah halaman terbit, akses **https://aksapraman-cpu.github.io/B/** lewat Chrome di HP.
+
+Catatan: tautan GitHub Pages di atas **belum diverifikasi aktif** sampai pengaturan Pages selesai.
+
 ## Jalankan di komputer
 Memerlukan Python **3.11**, FFmpeg dalam PATH, dan koneksi internet untuk unduhan model awal. CPU bisa sangat lambat; GPU direkomendasikan. Untuk mode lokal, siapkan memori yang cukup.
 
