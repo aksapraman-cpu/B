@@ -1,0 +1,6 @@
+gradio>=5.0,<7
+f5-tts>=1.1.0
+huggingface-hub>=0.28
+pydub>=0.25.1
+requests>=2.31
+soundfile>=0.12
